@@ -34,4 +34,4 @@ jobs:
           build_dir: dist
           commit_message: "Snake Animation Update"
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
